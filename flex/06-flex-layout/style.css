@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -16,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
 }
 
 input {
@@ -24,4 +27,100 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+.content {
+  margin-top: 100x;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  padding: 5px;
+}
+
+.header > .left-links {
+  display: flex;
+  gap: 16px;
+  margin-right: auto;
+}
+
+.header > .right-links {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+  padding-right: 50px;
+}
+
+.footer {
+  display: flex;
+  background-color: #eeee;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+  margin-top: auto;
+  padding: 5px;
+}
+
+.footer > .left-links {
+  display: flex;
+  gap: 16px;
+  margin-right: auto;
+}
+  
+  .header > .left-links {
+    display: flex;
+    gap: 16px;
+    margin-right: auto;
+  }
+  
+  .header > .right-links {
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+    padding-right: 50px;
+  }
+  
+  .footer {
+    display: flex;
+    background-color: #eeee;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    margin-top: auto;
+    padding: 5px;
+  }
+  
+  .footer > .left-links {
+    display: flex;
+    gap: 16px;
+    margin-right: auto;
+  }
+  
+  .footer > .right-links {
+    display: flex;
+    gap: 16px;
+    margin-left: auto;
+    padding-right: 50px;
+  }
+
+.footer > .right-links {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+  padding-right: 50px;
 }
